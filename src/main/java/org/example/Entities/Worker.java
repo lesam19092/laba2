@@ -1,13 +1,14 @@
-package org.example;
+package org.example.Entities;
 
 
 import javax.persistence.*;
 
 @Entity
-public class Worker  {
+public class Worker {
 
     private int age;
     private String fullName;
+
     public int getAge() {
         return age;
     }
@@ -29,7 +30,7 @@ public class Worker  {
     private String profession;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id ;
+    private int id;
 
 
     public Worker() {

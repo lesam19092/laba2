@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Entities;
 
 import javax.persistence.*;
 
@@ -14,10 +14,6 @@ public class Guest {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int guestId;
-
-
-
-
 
 
     public String getFullName() {
@@ -42,7 +38,7 @@ public class Guest {
     public Guest() {
     }
 
-   public HotelRoom getHotelnomer() {
+    public HotelRoom getHotelnomer() {
         return hotelnomer;
     }
 
@@ -52,7 +48,6 @@ public class Guest {
 
     @ManyToOne(fetch = FetchType.LAZY)
     public HotelRoom hotelnomer;
-
 
 
     public int getGuestId() {

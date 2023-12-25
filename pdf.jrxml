@@ -46,7 +46,7 @@
 				<textElement textAlignment="Right">
 					<font fontName="DejaVu Sans Mono"/>
 				</textElement>
-				<text><![CDATA[по лабораторной работе]]></text>
+				<text><![CDATA[курсовой работе]]></text>
 			</staticText>
 		</band>
 	</title>

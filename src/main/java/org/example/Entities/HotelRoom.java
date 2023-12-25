@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Entities;
 
 
 import javax.persistence.*;
@@ -19,6 +19,7 @@ public class HotelRoom {
     public void setNumber(int number) {
         this.number = number;
     }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -33,12 +34,24 @@ public class HotelRoom {
     }
 
 
-
-
-
     private int price;
     private int capacity;
     private Boolean occupied;
+
+    private int days;
+
+    public int getDays() {
+        return days;
+    }
+
+    public void setDays(int days) {
+        this.days = days;
+    }
+
+    public void setOccupied(Boolean occupied) {
+        this.occupied = occupied;
+    }
+
     public int getCapacity() {
         return capacity;
     }

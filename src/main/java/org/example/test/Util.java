@@ -1,4 +1,4 @@
-package org.example;
+package org.example.test;
 
 public class Util {
 
@@ -22,22 +22,23 @@ public class Util {
     }
 
 
-    public static boolean checkAge(int age)  {
-        return  age >= 0 || age < 100;
+    public static boolean checkAge(int age) {
+        return age >= 0 || age < 100;
     }
 
-    public static boolean checkRoom(int room)  {
-        return room>=0;
+    public static boolean checkRoom(int room) {
+        return room >= 0;
     }
 
-    public static boolean checkType(String type)  {
+    public static boolean checkType(String type) {
         if (type != null && !type.isEmpty()) {
             if (type.equals("люкс") || type.equals("обычный")) {
                 return true;
             } else {
                 return false;
             }
-        } return false;
+        }
+        return false;
     }
 
 }

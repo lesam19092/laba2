@@ -1,6 +1,6 @@
-package org.example;
+package org.example.Controllers;
 
-public class Checks {
+public class ChecksController {
 
     public static class MyException extends Exception {
         public MyException() {
@@ -25,16 +25,24 @@ public class Checks {
         if (id < 0) throw new MyException();
     }
 
-    public static void checkDuration(Integer duration ) throws MyException{
-        if (duration<0) throw new MyException();
+    public static void checkDuration(Integer duration) throws MyException {
+        if (duration <= 0) throw new MyException();
     }
 
-    public static void checkAge(Integer age) throws  MyException {
+    public static void checkAge(Integer age) throws MyException {
         if (age < 0 || age > 100) throw new MyException();
     }
 
     public static void checkRoom(Integer room) throws MyException {
-        if (room < 0 || room>=21) throw new MyException();
+        if (room <= 0) throw new MyException();
+    }
+
+    public static void checkCapacity(Integer capacity) throws MyException {
+        if (capacity <= 0 || capacity >= 7) throw new MyException();
+    }
+
+    public static void checkPrice(Integer capacity) throws MyException {
+        if (capacity <= 0) throw new MyException();
     }
 
 

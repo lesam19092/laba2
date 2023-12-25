@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<guestlist>
-    <guest age="1" id="91" name="а" room="2" typeOfRoom="10"/>
-    <guest age="1" id="92" name="кек" room="3" typeOfRoom="8"/>
-    <guest age="1" id="93" name="кек" room="10" typeOfRoom="1"/>
-    <guest age="1" id="91" name="а" room="2" typeOfRoom=""/>
-    <guest age="1" id="92" name="кек" room="3" typeOfRoom=""/>
-    <guest age="1" id="93" name="кек" room="10" typeOfRoom=""/>
-</guestlist>
+<?xml version="1.0" encoding="UTF-8"?><guestlist><guest age="12" duration="1281" id="131" name="мак" room="12"/><guest age="11" duration="1281" id="132" name="шухер" room="11"/><guest age="8" duration="1" id="142" name="дима" room="8"/></guestlist>

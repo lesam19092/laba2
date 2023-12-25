@@ -1,7 +1,7 @@
 package org.example;
 
 import org.apache.log4j.PropertyConfigurator;
-import org.example.interfaces.GraficInterface;
+import org.example.interfaces.HotelInterface;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -24,7 +24,7 @@ public class Main {
         String log4jConfPath = "C:\\Users\\danil\\IdeaProjects\\laba2\\src\\main\\java\\log4j.properties";
         PropertyConfigurator.configure(log4jConfPath);
 
-        new GraficInterface().show();
+        new HotelInterface().show();
     }
 }
 
